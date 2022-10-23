@@ -64,7 +64,8 @@ O/S를 만들기 위해서는 가상머신인 vm ware와 어셈블리어를 컴�
 
 2. vm ware 설치
 
-[vm ware 설치](https://jhnyang.tistory.com/233)를 참고했다.
+[vm ware 설치](https://jhnyang.tistory.com/233)를 참고했다.</br>
+
 설치 후 중요한것은 우리가 O/S를 만들기 위해서는 가상환경에 기존의 운영체제를 쓰면안된다는 것이다.
 그래서 O/S를 선택할때 Other를 선택하여 가상환경을 만들어야한다.
 마지막으로 가상환경을 만들었다면 setting에서 Floppy Disk를 추가해야한다.
