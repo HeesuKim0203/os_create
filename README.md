@@ -69,5 +69,5 @@ O/S를 만들기 위해서는 가상머신인 vm ware와 어셈블리어를 컴�
 그래서 O/S를 선택할때 Other를 선택하여 가상환경을 만들어야한다.
 마지막으로 가상환경을 만들었다면 setting에서 Floppy Disk를 추가해야한다.
 
-![Floppy Disk 추가](./img/vmware_floppy_disk 추가.PNG)
+![Floppy Disk 추가](./img/vm_floppy_disk.png)
 
