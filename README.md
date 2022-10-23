@@ -54,10 +54,20 @@ I/O를 개발하는 Repository
 
 프로세스의 상태는 ready, blocked, running 상태가 있습니다.
 
+# O/S 만들기
 
+O/S를 만들기 위해서는 가상머신인 vm ware와 어셈블리어를 컴파일 할수 있는 nasm이 필요하다.
 
+1. nasm 설치
 
+[nasm 설치](https://comb.tistory.com/13)를 참고했다.
 
+2. vm ware 설치
 
+[vm ware 설치](https://jhnyang.tistory.com/233)를 참고했다.
+설치 후 중요한것은 우리가 O/S를 만들기 위해서는 가상환경에 기존의 운영체제를 쓰면안된다는 것이다.
+그래서 O/S를 선택할때 Other를 선택하여 가상환경을 만들어야한다.
+마지막으로 가상환경을 만들었다면 setting에서 Floppy Disk를 추가해야한다.
 
+![Floppy Disk 추가](./img/vmware_floppy_disk 추가.PNG)
 
