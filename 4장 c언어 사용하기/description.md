@@ -42,7 +42,7 @@ cat Boot.img Sector2.img disk.img > final.img
 
 ![코드 결과](./결과.PNG)
 
-이제 C언어를 이용하여 개발할 수 있게 되었습니다!!
+이제 C언어를 이용하여 개발할 수 있게 되었습니다!! 저는 출처를 보고 쉽게 작업 할 수 있도록 makefile까지 만들었습니다!
 
 
 
