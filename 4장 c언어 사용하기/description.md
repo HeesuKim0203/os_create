@@ -16,6 +16,26 @@ C언어로 개발을 하여, 소스코드를 기계어로 만들어 통합하는
 
 [공유폴더 설정 참고 자료](https://m.blog.naver.com/PostView.nhn?blogId=cjh226&logNo=221159795371&proxyReferer=https%3A%2F%2Fwww.google.co.kr%2F)
 
+## C언어 코드 img로 만들기
+
+```
+gcc -c -m32 -ffreestanding main.c -o main.o
+```
+
+```
+ld -melf_i386 -Ttext 0x10200 -nostdlib main.o -o main.img
+```
+
+```
+objcopy -O binary main.img disk.img
+```
+```
+cat Boot.img Sector2.img disk.img > final.img
+```
+[[출처] [OS 만들기 7강] C언어로 개발하기|작성자 유리공장장](https://blog.naver.com/PostView.naver?blogId=simhs93&logNo=221260586399&parentCategoryNo=&categoryNo=40&viewDate=&isShowPopularPosts=false&from=postView)
+
+
+
 --- 코드 설명은 생략 ---
 
 ### 코드결과
