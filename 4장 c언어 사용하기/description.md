@@ -42,9 +42,7 @@ cat Boot.img Sector2.img disk.img > final.img
 
 ![코드 결과](./결과.PNG)
 
-보호모드 환경에서 OS를 만들수 있게 되었습니다. 이 부분에 대해서는 이해가 어려워서 아래의 링크 글을 참고했습니다.
-
-<https://blog.naver.com/PostView.naver?blogId=simhs93&logNo=221258016792&parentCategoryNo=&categoryNo=40&viewDate=&isShowPopularPosts=false&from=postView>
+이제 C언어를 이용하여 개발할 수 있게 되었습니다!!
 
 
 
