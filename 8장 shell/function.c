@@ -3,7 +3,7 @@
 
 void kprintf(char* str, int line, int col) 
 {
-	char *video = (char*)(0xB8000 + 160 * line + col);
+	char *video = (char*)(0xB8000 + 160 * line + 2 * col);
 
 	for (int i = 0; str[i] != 0; i++)
 	{
@@ -16,8 +16,8 @@ void kprintf(char* str, int line, int col)
 
 void kprintf_line_clear(int line, int col)
 {
-	char *video = (char*)(0xB8000 + 160 * line);
-	for (int i = 0; i < 160 ; i++)
+	char *video = (char*)(0xB8000 + 160 * line + 2 * col);
+	for (int i = 0; i < 160 - 2 * col ; i++)
 	{
 		*video++ = 0;
 		*video++ = 0x03;

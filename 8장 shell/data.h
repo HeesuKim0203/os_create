@@ -1,7 +1,5 @@
 #pragma once
 
-#pragma once
-
 #define videomaxline 25
 #define videomaxcol 80
 

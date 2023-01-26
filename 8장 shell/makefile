@@ -7,7 +7,7 @@ disk.img : main.img
 	objcopy -O binary main.img disk.img
 
 main.img : main.o function.o interrupt.o shell.o
-	ld -melf_i386 -Ttext 0x10200 -nostdlib main.o function.o interrupt.o -o main.img
+	ld -melf_i386 -Ttext 0x10200 -nostdlib main.o function.o interrupt.o shell.o -o main.img
 
 main.o : main.c
 	gcc -c -masm=intel -m32 -ffreestanding main.c -o main.o

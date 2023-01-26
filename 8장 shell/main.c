@@ -55,6 +55,7 @@ void translate_shell()
 	if (keyboard[0] == 0) { return; } 
 	if (kstrcmp(keyboard, "clear")) { sh_clear(); return; }
 	if (kstrcmp(keyboard, "version")) { sh_version(); return; }
+	if (kstrcmp(keyboard, "cheerup")) { sh_cheerup(); return; }
 	
 	kprintf("There is no such command.",++curline, 0);
 }

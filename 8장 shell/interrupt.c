@@ -240,7 +240,7 @@ unsigned char transScan(unsigned char target)
 	case 0x15: result = 'y'; break ;
 	case 0x2C: result = 'z'; break ;
 	case 0x39: result = ' '; break ; 
-	case 0x0E: result = 0x08; break ; 
+	case 0x0E: result = BACKSPACE; break ; 
 	case 0x1C: result = ENTER; break; 
 	default: result = 0xFF; break; 
 
