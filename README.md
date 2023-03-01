@@ -1,5 +1,5 @@
-# I/O_create
-I/O를 개발하는 Repository
+# OS_create
+OS를 개발하는 Repository
 
 # 용어 정리
 
